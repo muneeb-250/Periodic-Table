@@ -1,0 +1,146 @@
+body{
+    background-color: ghostwhite;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1,h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px blue;
+    text-transform: uppercase;
+    background-color: dodgerblue;
+
+}
+.container{
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+.container ul {
+    display: flex;
+    background-color: dodgerblue;
+    padding: 2rem 0rem;
+    flex-wrap: wrap;
+    border-top: 2px solid  black;
+    border-bottom: 2px solid  black;
+}
+.container ul li{
+    border-bottom: 2px solid  white;
+    margin: 0 .3rem;
+    padding: 0 .2rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+.container ul li:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+.selected{
+    border: 1px solid black;
+    transform: rotate(5deg) scale(1.2,1.2);
+}
+
+/* Legends  */
+.transition{
+    background-color: blueviolet ;
+}
+.post-tr{
+    background-color: dodgerblue;
+}
+.alkali{
+    background-color: cornflowerblue;
+}
+.alkaline-earth{
+    background-color: tomato;
+}
+.metalloid{
+    background-color: burlywood;
+}
+.noble-gases{
+    background-color: palevioletred;
+}
+.unknown{
+    background-color: thistle;
+}
+.lanthanides{
+    background-color: hotpink;
+}
+.actinides{
+    background-color: darkmagenta;
+}
+.reactive-nonmetals{
+    background-color: slateblue;
+}
+
+ /* Table   */
+
+sup{
+    padding-right: 1px;
+    font-size: 6px;
+    font-weight: bolder;
+}
+span{
+    font-size: 7px;
+    font-weight: bolder;
+}
+
+table{
+    border-spacing: 0px;
+}
+
+td{
+    border: 1px solid white;
+    cursor: pointer;
+    /* height: 20px; */
+    /* width: 2px; */
+    transition: all ease-in .1s;
+}
+td:hover{
+    /* transform: ; */
+    transform: scale(2,2);
+}
+
+td[blank]{
+    border: none;
+}
+
+td[transition]{
+    background-color: blueviolet ;
+}
+
+td[post-tr] {
+    background-color: dodgerblue;
+}
+
+td[alkali]{
+    background-color: cornflowerblue;
+}
+
+td[alkaline-earth]{
+    background-color: tomato;
+}
+
+td[metalloid]{
+    background-color: burlywood;
+}
+
+td[noble-gases]{
+    background-color: palevioletred;
+}
+
+td[unknown]{
+    background-color: thistle;
+}
+td[lanthanides]{
+    background-color: hotpink;
+}
+td[actinides]{
+    background-color: darkmagenta;
+}
+td[reactive-nonmetals]{
+    background-color: slateblue;
+}
